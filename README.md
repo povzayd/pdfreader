@@ -24,19 +24,22 @@ This project uses a Hybrid RAG approach to optimize for cost and performance:
 ## Installation & Setup
 
 ### 1. Clone the Repository
-`bash
-```git clone github.com/povzayd/pdfreader.git
+
+```
+git clone github.com/povzayd/pdfreader.git
 cd pdfreader
 ```
 2. Backend Setup
- * Navigate to the backend folder:
- * ```
+  Navigate to the backend folder:
+ ```
    cd backend
- `` `
+ ```
  * Create a `.env` file and add your OpenAI Key:
+
    ```
    OPENAI_API_KEY=sk-your-key-here
-`` `
+   ```
+
  * Install dependencies:
 ```
    pip install -r requirements.txt
@@ -47,9 +50,9 @@ cd pdfreader
 pip install fastapi uvicorn langchain langchain-openai langchain-community langchain-huggingface sentence-transformers faiss-cpu pymupdf youtube-transcript-api python-dotenv
 ```
  * Start the server:
-   ```
+```
    python main.py
-  ``
+  ```
 3. Frontend Setup
  * Navigate to the frontend folder:
 ```
